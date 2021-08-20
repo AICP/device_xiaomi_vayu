@@ -11,7 +11,8 @@ $(call inherit-product, device/xiaomi/sm8150-common/msmnile.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-aicp
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -30,6 +31,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# PartsBin
+PRODUCT_PACKAGES += \
+    PartsBin
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
