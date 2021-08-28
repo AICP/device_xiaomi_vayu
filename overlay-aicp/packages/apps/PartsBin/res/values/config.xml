@@ -16,15 +16,5 @@
 
     <!-- Whether device supports switching the display refreshrate -->
     <bool name="config_device_supports_switch_refreshrate">true</bool>
-
-    <!-- Integer value of the minimal/base display refreshrate (usually 60) -->
-    <integer name="BaseRefresh">30</integer>
-
-    <!-- Integer value of the maximum/peak display refreshrate (e.g. 90) -->
-    <integer name="PeakRefresh">120</integer>
-
-    <!-- Show/hide the QS tile, if device supports switching display refreshrates or not. Default value is false. -->
-    <bool name="enableRefreshrateTile">true</bool>
-
 </resources>
 
