@@ -804,5 +804,5 @@
 
     <!-- System Info-->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone14/temp</string>
-    <string name="config_sysCPUTempMultiplier">0.001</string>
+    <string name="config_sysCPUTempMultiplier">1000</string>
 </resources>
