@@ -805,6 +805,4 @@
     <!-- System Info-->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone14/temp</string>
     <string name="config_sysCPUTempMultiplier">1000</string>
-
-     <string name="config_fpsInfoSysNode">/sys/class/drm/sde-crtc-0/measured_fps</string>
 </resources>
