@@ -805,4 +805,14 @@
     <!-- System Info-->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone14/temp</string>
     <string name="config_sysCPUTempMultiplier">1000</string>
+
+    <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
+    <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
+        <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
+
+    <!-- Icons that don't show in a collapsed statusbar on keyguard -->
+    <string-array name="config_keyguard_statusbar_icon_blocklist" translatable="false">
+        <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
 </resources>
